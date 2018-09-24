@@ -21,10 +21,11 @@ h3,
 h4,
 h5,
 h6 {
-	color: #111111;
+	color: #fc6103;
 	margin: 0;
-	font-weight: 500;
+	font-weight: bold;
 	font-family: 'Rubik', sans-serif;
+	font-family: Microsoft YaHei;
 }
 
 h1 {
@@ -41,7 +42,7 @@ h3 {
 }
 
 h4 {
-	font-size: 24px;
+	font-size: 16px;
 }
 
 h5 {
@@ -53,13 +54,14 @@ h6 {
 }
 
 p {
-	font-size: 20px;
-	color: #f6783a;
+	font-size: 16px;
+	color: #007bff;
 	line-height: 1.6;
+	font-family:Microsoft JhengHei;
 }
 
 img {
-	max-width: 100%;
+	max-width: 60%;
 }
 
 input:focus,
@@ -142,6 +144,7 @@ ol {
 	text-align: center;
 	border: none;
 	cursor: pointer;
+	font-family: Microsoft YaHei
 }
 
 /* Image Popup */
@@ -240,7 +243,7 @@ ol {
 .site-logo {
 	display: inline-block;
 	margin-right: 50px;
-	padding-top: 20px;
+	padding-top: 0px;
 }
 
 .header-info {
@@ -301,7 +304,7 @@ ol {
 }
 
 .nav-section {
-	background: #020031;
+	background: #1868be;
 }
 
 .nav-section .nav-right {
@@ -372,6 +375,7 @@ ol {
 	position: relative;
 	opacity: 0;
 	top: 50px;
+	font-family: Microsoft YaHei
 }
 
 .hs-item .hs-title {
@@ -382,6 +386,7 @@ ol {
 	left: 150px;
 	opacity: 0;
 	text-transform: uppercase;
+	font-family: Microsoft YaHei;
 }
 
 .hs-item .hs-des {
@@ -1152,9 +1157,10 @@ ol {
 }
 
 .about-text .about-list li {
-	font-size: 14px;
-	color: #636363;
+	font-size: 18px;
+	color: #f88106;
 	margin-bottom: 10px;
+	font-family:Microsoft JhengHei;
 }
 
 .about-text .about-list li i {
