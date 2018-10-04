@@ -61,7 +61,10 @@ p {
 }
 
 img {
-	max-width: 60%;
+	max-width: 70%;
+	position:relative;left:50px
+	
+	
 }
 
 input:focus,
@@ -1705,10 +1708,10 @@ ol {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.header-info .hf-item i {
-		float: left;
+		float: center;
 	}
 	.header-info .hf-item p {
-		display: block;
+		display: left;
 	}
 	.hs-item {
 		height: auto;
